@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HLTV cs2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Martian+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>HLTV cs2</h1>
+        <img src="img/Counter Strike 2.svg" alt="Логотип"width="200xp">
+    <nav>
+        <ul>   
+            <li><a href="index.html">На главную</a></li>
+        </ul>
+    </nav>
+    </header>
+    <main>
+        <section id="content">
+          <h2>Профиль</h2>
+          <p class="ava"><img src="img/avatar.jpg" alt="аватар" width="200px" height="200px"></p>
+        <form id="form-reg">
+            <label for="mail">Придумайте логин и пароль</label><br>
+            <input id="mail" type="email" placeholder="email" required><br>
+            <input id="pass" type="password" placeholder="пароль" required><br>
+            
+            <input id="gender-male" type="radio" name="gender" value="male" checked>
+            <label for="gender-male">Мужской</label>
+            
+            <input id="gender-female" type="radio" name="gender" value="female">
+            <label for="gender-female">Женский</label><br>
+    
+    
+            <p>Про что вы хотите получать информацию?</p>
+            <input type="checkbox" id="SeaAnimal" value="SeaAnimal">
+            <label for="SeaAnimal">Свежие новости мира киберспорта</label><br>
+    
+            <input type="checkbox" id="Seaview" value="Seaview">
+            <label for="Seaview">Виды тренеровок</label><br>
+    
+            <input type="checkbox" id="StrangePlants" value="StrangePlants">
+            <label for="StrangePlants">Интересные факты</label><br>
+    
+            <label for="city">Из какого вы города?</label>
+            <select name="city" id="city">
+                <option value="moskow">Москва</option>
+                <option value="chelyabinsk">Челябинск</option>
+                <option value="spb">Санкт-Петербург</option>
+                <option value="kazan">Казань</option>
+                <option value="novgorod">Новгород</option>
+            </select><br>
+            
+            <input type="submit" value="Зарегестрироваться">
+            <input type="reset">
+        </form>
+        </section>
+      </main>
+    <footer>
+        <p>&copy; Любивый Никита, 2023 г.</p>
+        <p><a target="_blank" href="https://www.faceit.com/en/players/yoked0dge">Вы так же можете найти меня здесь</a></p>
+    </footer>
+</body>
+</html>

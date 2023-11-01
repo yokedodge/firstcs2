@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 1.1em;
+    font-family: 'Martian Mono', monospace;
+}
+header {
+    background-color: #505050;
+    text-align: center;
+}
+main {
+    background-color: rgb(119, 119, 119);
+    color: aliceblue;
+}
+footer{
+    background-color: #505050;
+    padding: 10px 50px;
+}
+#about{
+    background-color: rgb(119, 119, 119);
+    padding: 10px 50px;
+    text-align: center;
+}
+#arti{
+    background-color: darkgray;
+    padding: 10px 50px;
+}
+#content{
+    padding: 10px 50px;
+}
+p {
+    text-align: justify;
+    padding: 10px;
+}
+h2{
+    font-size: 30px;
+    text-decoration: overline;
+}
+nav ul{
+    list-style: none;
+    display: inline-flex;/*Таким образом я сделал список в линию, но не понимаю как сделать отспут между словами*/
+    padding: 10px 50px;
+    font-weight: 600;
+}
+nav a{
+    margin-right: 10px;
+}
+ol{
+    padding: 15px;
+}
+a{
+    color: aliceblue;
+}
+a:hover{
+    color: black;
+}
+nav ul a{
+    text-decoration: none;
+}
+.check-table {
+    border: solid 5px rgb(0, 0, 0);
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    border-collapse: collapse;
+}
+.check-table td,
+.check-table th {
+    padding: 5px 10px;
+    border: solid 1px black;
+}
+.check-table tr:nth-child(even) {
+    font-weight: bold;
+    color:  rgb(219, 219, 219);
+}
+.check-table td:last-child, 
+.check-table th:last-child {
+    background-color: rgb(95, 95, 95);
+    text-align: center;
+}
+th {
+    color: rgb(39, 41, 40);
+}
+#form-reg {
+    text-align: center;
+}
+.ava {
+    text-align: center;
+}
+.ava img {
+    border-radius: 60%;
+}
+#form-reg p {
+    text-align: center;
+    font-size: 20px;
+}
