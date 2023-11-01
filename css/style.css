@@ -71,7 +71,7 @@ nav ul a{
     padding: 5px 10px;
     border: solid 1px black;
 }
-.check-table tr:nth-child(even) {
+.check-table tr{
     font-weight: bold;
     color:  rgb(219, 219, 219);
 }
